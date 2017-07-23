@@ -15,6 +15,6 @@ module.exports = {
   dtmfs: getSoundLocation("dtmf-star.mp3")
 }
 
-getSoundLocation(fileName) {
+function getSoundLocation(fileName) {
   return __dirname + "/assets/" + fileName;
 }
