@@ -1,6 +1,6 @@
 {
   "name": "twilio-sounds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Packaged version of twilio's audio assets",
   "main": "index.js",
   "scripts": {
