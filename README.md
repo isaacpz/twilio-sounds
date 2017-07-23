@@ -16,7 +16,10 @@ yarn add twilio-sounds
 
 ## Usage
 
-TODO
+```javascript
+import twilioSounds from 'twilio-sounds';
+let twilioOptions = {sounds: twilioSounds};
+```
 
 ## License
 
