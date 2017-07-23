@@ -1,6 +1,7 @@
 var path = require("path");
 
 module.exports = {
+  incoming: getSoundLocation("incoming.mp3"),
   outgoing: getSoundLocation("outgoing.mp3"),
   disconnect: getSoundLocation("disconnect.mp3"),
   dtmf1: getSoundLocation("dtmf-1.mp3"),
@@ -18,5 +19,5 @@ module.exports = {
 }
 
 function getSoundLocation(fileName) {
-  return path.resolve("/assets/" + fileName);
+  return path.resolve("./assets/" + fileName);
 }
